@@ -8,12 +8,14 @@ nav {
     height: 50px;
     
 }
+ 
 nav a {
     font-size: 20px;
     color: aqua;
 }
 @media screen and (max-width: 600px){
     nav {
+        background-color: red;
         height: auto;
         flex-direction: column;
     }
